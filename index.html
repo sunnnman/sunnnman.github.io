@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="generator" content="Hexo 3.9.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    save_scroll: false,
+    copycode: {"enable":false,"show_result":false,"style":null},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    }
+  };
+</script>
+
+  <meta name="description" content="澎湃的个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sunnnman&#39;s blog">
+<meta property="og:url" content="http://sunnnman.github.io/index.html">
+<meta property="og:site_name" content="Sunnnman&#39;s blog">
+<meta property="og:description" content="澎湃的个人博客">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sunnnman&#39;s blog">
+<meta name="twitter:description" content="澎湃的个人博客">
+  <link rel="alternate" href="/atom.xml" title="Sunnnman's blog" type="application/atom+xml">
+  <link rel="canonical" href="http://sunnnman.github.io/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>Sunnnman's blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  <div class="container sidebar-position-left">
+    <div class="headband"></div>
+     <a href="https://github.com/sunnnman" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Sunnnman's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">等你变秃了，你就变强了</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content page-home">
+            
+  <section id="posts" class="posts-expand">
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2021/01/17/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2021/01/17/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2021-01-17 09:06:09" itemprop="dateCreated datePublished" datetime="2021-01-17T09:06:09+08:00">2021-01-17</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-10-31 10:34:45" itemprop="dateModified" datetime="2019-10-31T10:34:45+08:00">2019-10-31</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2021/01/17/hello-world/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/11/15/工匠杯Android总结篇/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/11/15/工匠杯Android总结篇/" class="post-title-link" itemprop="url">工匠杯Android总结篇</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-11-15 16:24:58" itemprop="dateCreated datePublished" datetime="2019-11-15T16:24:58+08:00">2019-11-15</time>
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+            
+          
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/11/15/工匠杯总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/11/15/工匠杯总结/" class="post-title-link" itemprop="url">工匠杯总结</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-11-15 16:15:36" itemprop="dateCreated datePublished" datetime="2019-11-15T16:15:36+08:00">2019-11-15</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-11-29 11:02:49" itemprop="dateModified" datetime="2019-11-29T11:02:49+08:00">2019-11-29</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/总结/" itemprop="url" rel="index"><span itemprop="name">总结</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+            <h3 id="个人比赛总结"><a href="#个人比赛总结" class="headerlink" title="个人比赛总结"></a>个人比赛总结</h3><p>其实距离比赛结束已经很久了，想写个总结但一直有事拖着，个人觉得写个总结还是很有必要的。这是到大学后第一次参加稍微算大一点的比赛，第一次感受到备赛的紧张和压力。比赛分上午的C#和Android，Android虽然学过一点但只止于拖控件，简单的事件处理什么的，C#就跟别提了。刚开始准备比赛的那几天感觉自己一直处于一种混沌的状态，我是谁？我在哪？我要干什么？</p>
+<img src="/2019/11/15/工匠杯总结/11/15/工匠杯总结/sad.jpeg" title="扎心">
+
+<p>看不懂的代码，装不上的软件，好在都坚持下来，头几天过后渐渐能自己上手敲，不会的就看着例题里类似的学，要不就百度知乎各种查。那段时间确实是学到了很多之前没接触到的东西，所以我也觉得很有必要把这些有的没的东西记一下，日后想不起来了找到也方便。</p>
+<hr>
+<h4 id="1、随机生成4位包含数字和小写字母的验证码："><a href="#1、随机生成4位包含数字和小写字母的验证码：" class="headerlink" title="1、随机生成4位包含数字和小写字母的验证码："></a>1、随机生成4位包含数字和小写字母的验证码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">public String verifyCode()</span><br><span class="line">        &#123;</span><br><span class="line">            Random random = new Random();</span><br><span class="line">            String str = &quot;&quot;;</span><br><span class="line">            for (int i = 0; i &lt; 4; i++)</span><br><span class="line">            &#123;</span><br><span class="line">                int key = random.Next(3); </span><br><span class="line">				switch (key)</span><br><span class="line">                &#123;</span><br><span class="line">                    case 0:</span><br><span class="line">                        int code1 = random.Next(10);</span><br><span class="line">                        str += code1;</span><br><span class="line">                        break;</span><br><span class="line">                    case 1:</span><br><span class="line">                        char code2 = (char)(random.Next(26) + 65);</span><br><span class="line">                        str += code2;</span><br><span class="line">                        break;</span><br><span class="line">                    case 2:</span><br><span class="line">                        char code3 = (char)(random.Next(26) + 97);</span><br><span class="line">                        str += code3;</span><br><span class="line">                        break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            return str;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h4 id="2、用户七天自动登录："><a href="#2、用户七天自动登录：" class="headerlink" title="2、用户七天自动登录："></a>2、用户七天自动登录：</h4><p>首先保存账户信息和登录时间</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">private void saveUserInfo(string email, string pw)</span><br><span class="line">        &#123;            </span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                using (StreamWriter sw = new StreamWriter(userInfoPath))</span><br><span class="line">                &#123;</span><br><span class="line">                    sw.WriteLine(email);</span><br><span class="line">                    sw.WriteLine(pw);</span><br><span class="line">                    sw.WriteLine(DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;));</span><br><span class="line">                    sw.Flush();</span><br><span class="line">                    sw.Close();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (Exception)</span><br><span class="line">            &#123;              </span><br><span class="line">            &#125;          </span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<p>其中userInfoPath是</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">private static string userInfoPath = Application.ExecutablePath + &quot;infotest.txt&quot;;</span><br></pre></td></tr></table></figure>
+
+<p>要实现是否自动登录要满足几个条件，首先是之前成功登录时选择了自动登录，已经将用户信息保存，其次是时间要在七天以内</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">private int autoLoginSuccess()</span><br><span class="line">        &#123;</span><br><span class="line">            // 读取文件 获取用户名和密码 和日期</span><br><span class="line">            string email = &quot;&quot;;</span><br><span class="line">            string pw = &quot;&quot;;</span><br><span class="line">            string time = &quot;&quot;;</span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                // 创建一个 StreamReader 的实例来读取文件  using 语句也能关闭 StreamReader</span><br><span class="line">                using (StreamReader sr = new StreamReader(userInfoPath))</span><br><span class="line">                &#123;</span><br><span class="line">                    email = sr.ReadLine().Trim();</span><br><span class="line">                    </span><br><span class="line">                    pw = sr.ReadLine().Trim();</span><br><span class="line">                    </span><br><span class="line">                    time = sr.ReadLine().Trim();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (Exception e)</span><br><span class="line">            &#123;</span><br><span class="line">                // 文件没有找到 - 或者信息不能全部读取</span><br><span class="line">                return -1;</span><br><span class="line">            &#125;</span><br><span class="line">            // 判断是否过期</span><br><span class="line">            DateTime d = Convert.ToDateTime(time);</span><br><span class="line">            TimeSpan timeSpane = DateTime.Now.Subtract(d);// 获取时间间隔</span><br><span class="line">            if (Math.Abs(timeSpane.Days) &gt;= 7)</span><br><span class="line">            &#123;</span><br><span class="line">                // 过期</span><br><span class="line">                return -1;</span><br><span class="line">            &#125;</span><br><span class="line">            // 判断用户名密码是否正确</span><br><span class="line">            return 1;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h4 id="3、连接-SQL-Server-Management-Studio中的数据库："><a href="#3、连接-SQL-Server-Management-Studio中的数据库：" class="headerlink" title="3、连接 SQL Server Management Studio中的数据库："></a>3、连接 SQL Server Management Studio中的数据库：</h4><p>在这之前要先确保Visual Studio的服务器资源管理器中已经有了数据连接，之后的步骤就是打开连接，执行sql语句返回需要的信息，然后再关闭连接</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">public SqlConnection getCon()</span><br><span class="line">        &#123;</span><br><span class="line">            string conStr = &quot;Data Source=.;Initial Catalog=数据库名;Integrated Security=True&quot;;</span><br><span class="line">            My_con = new SqlConnection(conStr);</span><br><span class="line">            My_con.Open();</span><br><span class="line">            return My_con;  //返回SqlConnection对象的信息</span><br><span class="line">        &#125;</span><br><span class="line">public SqlDataReader getcom(string SQLstr)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();   //打开与数据库的连接</span><br><span class="line">            SqlCommand My_com = My_con.CreateCommand(); //创建一个SqlCommand对象，用于执行SQL语句</span><br><span class="line">            My_com.CommandText = SQLstr;    //获取指定的SQL语句</span><br><span class="line">            SqlDataReader My_read = My_com.ExecuteReader(); //执行SQL语名句，生成一个SqlDataReader对象</span><br><span class="line">            return My_read;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        //根据sql与句进行查询，并将结果绑定在组件上显示</span><br><span class="line">        public DataSet getDataSet(string SQLstr, string tableName)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();   //打开与数据库的连接</span><br><span class="line">            SqlDataAdapter SQLda = new SqlDataAdapter(SQLstr, My_con);  //创建一个SqlDataAdapter对象，并获取指定数据表的信息</span><br><span class="line">            DataSet My_DataSet = new DataSet(); //创建DataSet对象</span><br><span class="line">            SQLda.Fill(My_DataSet, tableName);  //通过SqlDataAdapter对象的Fill()方法，将数据表信息添加到DataSet对象中</span><br><span class="line">            con_close();    //关闭数据库的连接</span><br><span class="line">            return My_DataSet;  //返回DataSet对象的信息</span><br><span class="line">            //WritePrivateProfileString(string section, string key, string val, string filePath);</span><br><span class="line">        &#125;</span><br><span class="line">        public DataTable getDataCombox(string SQLstr)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();</span><br><span class="line">            SqlDataAdapter SQLda = new SqlDataAdapter(SQLstr, My_con);</span><br><span class="line">            DataTable dt_re = new DataTable();</span><br><span class="line">            SQLda.Fill(dt_re);</span><br><span class="line">            return dt_re;</span><br><span class="line">        &#125;</span><br><span class="line">		//关闭数据库连接</span><br><span class="line">        public void con_close()</span><br><span class="line">        &#123;</span><br><span class="line">            if (My_con.State == ConnectionState.Open)   //判断是否打开与数据库的连接</span><br><span class="line">            &#123;</span><br><span class="line">                My_con.Close();   //关闭数据库的连接</span><br><span class="line">                My_con.Dispose();   //释放My_con变量的所有空间</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<p>一开始一直搞不清DataSet和DataTable是什么，看了这篇博客<a href="https://www.cnblogs.com/vaevvaev/p/6815384.html" target="_blank" rel="noopener">https://www.cnblogs.com/vaevvaev/p/6815384.html</a>才理清楚</p>
+<hr>
+<h4 id="4、常用控件的属性和方法"><a href="#4、常用控件的属性和方法" class="headerlink" title="4、常用控件的属性和方法"></a>4、常用控件的属性和方法</h4><p>（1）comboBox下拉列表</p>
+<p>设置下拉列表中的选项时如果不需要绑定某个数据那自接在控件的Items属性里设置就好了，集合里的一行就是下拉菜单中的一项。但是很多情况下comboBox是需要绑定从数据库中查出的一些数据的，这时需要指定控件的数据源和显示的数据项（以下的getDataCombox()即第3点连接数据库中的方法）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">string sql = &quot;查询的sql语句&quot;;</span><br><span class="line">            DataTable re = MyDataClass.getDataCombox(sql);  </span><br><span class="line">            this.comboBox.DataSource = re;</span><br><span class="line">            this.comboBox.DisplayMember = (&quot;显示的数据项名称&quot;);</span><br><span class="line">            this.comboBox.ValueMember = (&quot;对应所选的真正的值&quot;);</span><br></pre></td></tr></table></figure>
+
+<p>*comboBox.ValueMember这个属性如果在显示的值和真正对应的值相同时则可以不用另外设置，如果设置了，则获取时要用comboBox.SelectedValue.ToString()</p>
+<p>（2）groupBox控件组</p>
+<p>当有多个单选框，复选框等处于同一框体，且对它们的操作基本相同时可将它们放入同一控件组方便管理和批量操作，在同一个控件组中的控件像是在一个控件类型的数组中，可遍历控件组中的每个控件，控件组也可嵌套使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">foreach (Control F in groupBox.Controls)</span><br></pre></td></tr></table></figure>
+
+<p>*注意F为Control类型，若在设置其属下或调用其方法时一定要先将类型转换回来，例如 ((CheckBox)F).Checked = true;</p>
+<p>（3）chart统计图</p>
+<p>chart控件初始状态下为柱状图，通过设置Series中的chartType可修改为折线图等其他统计图的格式，然后是绑定数据，并且明确指出X，Y轴分别绑定到具体的某个数据项</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string sql = &quot;查询语句&quot;;</span><br><span class="line">            dt = MyDataClass.getDataCombox(sql);</span><br><span class="line">            chart1.DataSource = dt;</span><br><span class="line">            chart1.Series[0].XValueMember = dt.Columns[0].ColumnName; //绑定X轴的值</span><br><span class="line">            chart1.Series[0].YValueMembers = dt.Columns[1].ColumnName; //绑定Y轴的值</span><br><span class="line">            chart1.DataBind();</span><br></pre></td></tr></table></figure>
+
+<p>之前找到一篇很好的博客总结了chart的数据绑定，可惜没有收藏一下现在找不到了<img src="/2019/11/15/工匠杯总结/11/15/工匠杯总结/2.jpg" title="悔恨"></p>
+<p>（4）dataGridView表格</p>
+<p>其实dataGridView最主要就是用在显示表格的查询结果，重点在于数据表的绑定</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MyDS_Grid = MyDataClass.getDataSet(&quot;&quot;);</span><br><span class="line">dataGridView.DataSource = MyDS_Grid.Tables[0];</span><br></pre></td></tr></table></figure>
+
+<p>其实还有很多用法和细节的东西，但时间毕竟过了这么久了很多都忘了，谁让学习本来就是个记了忘，忘了记的过程呢，以后想起了再来补充吧</p>
+
+          
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/08/27/django笔记总结1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/08/27/django笔记总结1/" class="post-title-link" itemprop="url">django笔记总结1</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-27 19:26:09" itemprop="dateCreated datePublished" datetime="2019-08-27T19:26:09+08:00">2019-08-27</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-08-31 15:24:39" itemprop="dateModified" datetime="2019-08-31T15:24:39+08:00">2019-08-31</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/坚狗学习笔记/" itemprop="url" rel="index"><span itemprop="name">坚狗学习笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+            <h3 id="笔记整合"><a href="#笔记整合" class="headerlink" title="笔记整合"></a>笔记整合</h3><h4 id="1、项目结构分析"><a href="#1、项目结构分析" class="headerlink" title="1、项目结构分析"></a>1、项目结构分析</h4><p>​    manage.py: 基于此达成文件与项目的交互等，在终端输入 python manage.py [子命令] 可执行具体操作；</p>
+<p>​    setting.py : 项目相关的配置文件，例如存放模板的文件设置；</p>
+<p>​    urls.py : 用于设置url与视图函数之间的映射；</p>
+<p>​    views.py:用于编写视图函数；</p>
+<hr>
+<h4 id="2、视图函数注意点"><a href="#2、视图函数注意点" class="headerlink" title="2、视图函数注意点"></a>2、视图函数注意点</h4><p>​    所有视图函数必须有一个request参数，且放在第一位；</p>
+<p>​    视图函数返回值必须是HttpResponseBase或其子函数的对象；</p>
+<p>​    视图函数中如需使用某些函数需自己导入；</p>
+<hr>
+<h4 id="3、url中传递参数"><a href="#3、url中传递参数" class="headerlink" title="3、url中传递参数"></a>3、url中传递参数</h4><p>​    第一种是固定参数，在path 函数中用‘&lt;&gt;’尖括号定义： path(‘url/&lt;参数名&gt;’，视图函数)；</p>
+<p>​    *注意：path中所用参数名需与对应视图函数中参数名一致；</p>
+<p>​    第二种是获取字符串，在path函数和视图函数中都不需要给出参数，在视图函数中可自接用request.GET.get(‘参数名’)获取；</p>
+<hr>
+<h4 id="4、关于app"><a href="#4、关于app" class="headerlink" title="4、关于app"></a>4、关于app</h4><p>​    定义：Django对于项目划分的最小单位，一个项目由多个app整合完成，各app相对独立;</p>
+<p>​    各app可在其自己的urls.py下定义映射关系，但最终需整合到项目文件夹下的urls中：path(‘test/‘ , include (‘test.urls’) );</p>
+<p>​    * path包和include包均在django.urls下;</p>
+<hr>
+<h4 id="5、url命名"><a href="#5、url命名" class="headerlink" title="5、url命名"></a>5、url命名</h4><p>​    因为url可能变修改所以引用时最好不要这样 ‘/test/’ 写死，而可以为url命名，引用时通过 reverse（‘urlname’）反转获取真实url，</p>
+<p>​    例如在重定向时可使用：redirect（reverse（‘urlname’））,而对url命名只需在path函数中多加一个参数 name = ‘urlname’ 即可；</p>
+<ul>
+<li><p>reverse和redirect 均在django.shortcuts包下</p>
+<p>同时因为不同app中可能存在相同的urlname导致反转错误，所以引入应用命名空间app_name,设置app_name只需在app下的urls.py中添加一句：app_name = ‘app_name’即可，而在引用urlname时则改为 ：‘app_name : urlname’;</p>
+<hr>
+</li>
+</ul>
+<h4 id="6、dtl模板"><a href="#6、dtl模板" class="headerlink" title="6、dtl模板"></a>6、dtl模板</h4><p>​    dtl模板是一种带有特殊语法的HTML文件，这个HTML文件可被Django编译，可以传参实现数据动态化，在编译完成后生成一个HTML文件，然后再发送给客户端；</p>
+<p>​    项目文件下settings.py文件中通过 ：‘DIRS’ :[ os.path.join (BASE_DIR,’templates’) ]  指定模板存储文件夹为项目文件下的templates</p>
+<p>​    同时也可为每个app单独设置模板文件夹templates,放在app文件夹下，并且需将app名称添加到setting中；</p>
+<p>​    * 模板中可使用变量，但引用时通过{ { } } 双大括号 ;</p>
+<hr>
+<h4 id="7、render函数"><a href="#7、render函数" class="headerlink" title="7、render函数"></a>7、render函数</h4><p>​    render函数能够渲染模板，同时也能传递参数给模板: render(request , ‘模板’ ， context = context ) ，其中request参数不能少。    </p>
+<p>​    context为字典类型存放需要传递的参数，其中value值可以是列表、元组、对象、字典等，但是在调用时不能使用python原语，例如访</p>
+<p>问列表中的第一个元素不能使用 keyname[0]的用法，‘[]’将无法解析，而应使用‘.‘调用，例如keyname.0 表示列表中的第一个元素，其他类</p>
+<p>型用法相同。</p>
+<hr>
+<h4 id="8、dtl常用模板标"><a href="#8、dtl常用模板标" class="headerlink" title="8、dtl常用模板标"></a>8、dtl常用模板标</h4><p>​                </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if  %&#125;			if标签的判断与使用与python中相同</span><br><span class="line">&#123;% elif %&#125;</span><br><span class="line">&#123;% else %&#125;    </span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">for</span> test <span class="keyword">in</span> tests %&#125;</span><br><span class="line">&#123;% empty %&#125;      		当tests内容为空时走empty中的内容</span><br><span class="line">&#123;% endfor %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​    for…in中几个常用的变量： forloop.counter (记录循环的次数，从一开始，若想从0开始则用forloop.counter0)</p>
+<p>​                            forloop.frist ( 是否是第一次循环)</p>
+<p>​                            forloop.last (是否是最后一次循环)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% url &apos;urlname&apos; %&#125;  </span><br><span class="line"></span><br><span class="line">url的作用于python中的reverse相同，都是通过urlname返回真实的url，一般用于超链接跳转时，并且可以带参；</span><br><span class="line"></span><br><span class="line">	固定参数：&#123;% url &apos;urlname&apos; canshu= &apos;c&apos; %&#125;</span><br><span class="line">	获取字符串： &#123;% url &apos;urlname&apos; %&#125;?canshu=&apos;c&apos;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<img src="/2019/08/27/django笔记总结1/08/27/django笔记总结1/1.PNG">
+
+<img src="/2019/08/27/django笔记总结1/08/27/django笔记总结1/2.PNG">
+          
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/08/27/快速搭建虚拟环境/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/08/27/快速搭建虚拟环境/" class="post-title-link" itemprop="url">'快速搭建虚拟环境'</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-27 17:10:53 / 修改时间：17:52:58" itemprop="dateCreated datePublished" datetime="2019-08-27T17:10:53+08:00">2019-08-27</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/坚狗学习笔记/" itemprop="url" rel="index"><span itemprop="name">坚狗学习笔记</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在我们安装python后会有一个系统级别的Python环境，而不同的项目需要资源和django版本可能会不同，创建虚拟环境后就可以分别在不同的环境下安装不同版本的django，建立不同的项目。之前自学看《Python编程-从入门到实践》这本书时里面有介绍虚拟环境的搭建，但因为操作系统不同所以很多操作还要自行转换很麻烦，也比较容易出现问题。在看教学视频时就有对这部分的介绍，很快也很方便，所以总结了一下。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/27/快速搭建虚拟环境/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/08/18/next主题中文乱码问题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/08/18/next主题中文乱码问题/" class="post-title-link" itemprop="url">next主题中文乱码问题</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-18 15:46:36 / 修改时间：17:01:51" itemprop="dateCreated datePublished" datetime="2019-08-18T15:46:36+08:00">2019-08-18</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/踩坑史/" itemprop="url" rel="index"><span itemprop="name">踩坑史</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+            <p>搭建了博客，打算开始优化主题时出现了中文乱码的问题，按照网上的教程该改的都改了但乱码问题一直解决不了，也踩了坑。</p>
+<img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/绝望.jpg" title="嘤嘤嘤">
+
+<p>但是，嘿嘿，如你所见我最终还是解决了</p>
+<p>以下是我个人的经验：</p>
+<p>打开根目录下的_config.yml，找到language这里修改成zh_CH（简体中文）注意”:”冒号后要有空格</p>
+<img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/config.PNG" title="config">
+
+<p>这里建议查看下themes/next/languages文件夹，或许，也许,你的简体中文不叫zh_CH ( 好像确实有人存在这个问题)，那你就把language改成你的简体中文的名字，或者把它重命名为zh_CH</p>
+<p>到这你可以hexo s试试乱码问题有没有解决</p>
+<p>我当时就是改到这，发现乱码还是乱码，于是我开始怀疑是不是中文要引起来或者有什么其他的格式，但是在我尝试了各种奇怪的格式后发现：什么都不需要（但是注意冒号后面一定要有个空格）</p>
+<img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/绝望2.jpg" title="嘤嘤嘤">
+
+<p>然后我又查了好久，终于…</p>
+<p>—————————成功的分割线——————————</p>
+<p>最后一个可能导致你中文乱码的原因就是根目录下config.yml的编码，要修改为UTF-8编码格式（这个在编辑器里面打开就可以修改）</p>
+
+          
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://sunnnman.github.io/2019/08/17/Windows下快速下载和安装Git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ZPQ">
+      <meta itemprop="description" content="澎湃的个人博客">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sunnnman's blog">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">
+              
+              <a href="/2019/08/17/Windows下快速下载和安装Git/" class="post-title-link" itemprop="url">Windows下快速下载和安装Git</a>
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-17 08:39:43 / 修改时间：08:42:48" itemprop="dateCreated datePublished" datetime="2019-08-17T08:39:43+08:00">2019-08-17</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/踩坑史/" itemprop="url" rel="index"><span itemprop="name">踩坑史</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。目前GIT已经可以在windows下使用。以下将介绍如何快速的在Windows下下载并安装。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/17/Windows下快速下载和安装Git/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/avatar.gif"
+      alt="ZPQ">
+  <p class="site-author-name" itemprop="name">ZPQ</p>
+  <div class="site-description motion-element" itemprop="description">澎湃的个人博客</div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/sunnnman" title="GitHub &rarr; https://github.com/sunnnman" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    
+  
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">澎湃</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+    <span class="post-meta-divider">|</span>
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+    
+    
+  
+  <script color='0,0,0' opacity='0.5' zIndex='-1' count='150' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+<script src="/js/utils.js?v=7.3.0"></script>
+  <script src="/js/motion.js?v=7.3.0"></script>
+
+
+  <script src="/js/affix.js?v=7.3.0"></script>
+  <script src="/js/schemes/pisces.js?v=7.3.0"></script>
+
+
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+  
+</body>
+</html>
+<!-- ҳ����С���� -->
+<script type="text/javascript" src="/js/clicklove.js"></script>

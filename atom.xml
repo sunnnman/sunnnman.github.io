@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sunnnman&#39;s blog</title>
+  
+  <subtitle>等你变秃了，你就变强了</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://sunnnman.github.io/"/>
+  <updated>2019-10-31T02:34:45.153Z</updated>
+  <id>http://sunnnman.github.io/</id>
+  
+  <author>
+    <name>ZPQ</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://sunnnman.github.io/2021/01/17/hello-world/"/>
+    <id>http://sunnnman.github.io/2021/01/17/hello-world/</id>
+    <published>2021-01-17T01:06:09.376Z</published>
+    <updated>2019-10-31T02:34:45.153Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="test" scheme="http://sunnnman.github.io/categories/test/"/>
+    
+    
+      <category term="hexo" scheme="http://sunnnman.github.io/tags/hexo/"/>
+    
+      <category term="github" scheme="http://sunnnman.github.io/tags/github/"/>
+    
+      <category term="基础" scheme="http://sunnnman.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工匠杯Android总结篇</title>
+    <link href="http://sunnnman.github.io/2019/11/15/%E5%B7%A5%E5%8C%A0%E6%9D%AFAndroid%E6%80%BB%E7%BB%93%E7%AF%87/"/>
+    <id>http://sunnnman.github.io/2019/11/15/工匠杯Android总结篇/</id>
+    <published>2019-11-15T08:24:58.000Z</published>
+    <updated>2019-11-15T08:24:58.509Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>工匠杯总结</title>
+    <link href="http://sunnnman.github.io/2019/11/15/%E5%B7%A5%E5%8C%A0%E6%9D%AF%E6%80%BB%E7%BB%93/"/>
+    <id>http://sunnnman.github.io/2019/11/15/工匠杯总结/</id>
+    <published>2019-11-15T08:15:36.000Z</published>
+    <updated>2019-11-29T03:02:49.696Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="个人比赛总结"><a href="#个人比赛总结" class="headerlink" title="个人比赛总结"></a>个人比赛总结</h3><p>其实距离比赛结束已经很久了，想写个总结但一直有事拖着，个人觉得写个总结还是很有必要的。这是到大学后第一次参加稍微算大一点的比赛，第一次感受到备赛的紧张和压力。比赛分上午的C#和Android，Android虽然学过一点但只止于拖控件，简单的事件处理什么的，C#就跟别提了。刚开始准备比赛的那几天感觉自己一直处于一种混沌的状态，我是谁？我在哪？我要干什么？</p><img src="/2019/11/15/工匠杯总结/11/15/工匠杯总结/sad.jpeg" title="扎心"><p>看不懂的代码，装不上的软件，好在都坚持下来，头几天过后渐渐能自己上手敲，不会的就看着例题里类似的学，要不就百度知乎各种查。那段时间确实是学到了很多之前没接触到的东西，所以我也觉得很有必要把这些有的没的东西记一下，日后想不起来了找到也方便。</p><hr><h4 id="1、随机生成4位包含数字和小写字母的验证码："><a href="#1、随机生成4位包含数字和小写字母的验证码：" class="headerlink" title="1、随机生成4位包含数字和小写字母的验证码："></a>1、随机生成4位包含数字和小写字母的验证码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">public String verifyCode()</span><br><span class="line">        &#123;</span><br><span class="line">            Random random = new Random();</span><br><span class="line">            String str = &quot;&quot;;</span><br><span class="line">            for (int i = 0; i &lt; 4; i++)</span><br><span class="line">            &#123;</span><br><span class="line">                int key = random.Next(3); </span><br><span class="line">switch (key)</span><br><span class="line">                &#123;</span><br><span class="line">                    case 0:</span><br><span class="line">                        int code1 = random.Next(10);</span><br><span class="line">                        str += code1;</span><br><span class="line">                        break;</span><br><span class="line">                    case 1:</span><br><span class="line">                        char code2 = (char)(random.Next(26) + 65);</span><br><span class="line">                        str += code2;</span><br><span class="line">                        break;</span><br><span class="line">                    case 2:</span><br><span class="line">                        char code3 = (char)(random.Next(26) + 97);</span><br><span class="line">                        str += code3;</span><br><span class="line">                        break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            return str;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><hr><h4 id="2、用户七天自动登录："><a href="#2、用户七天自动登录：" class="headerlink" title="2、用户七天自动登录："></a>2、用户七天自动登录：</h4><p>首先保存账户信息和登录时间</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">private void saveUserInfo(string email, string pw)</span><br><span class="line">        &#123;            </span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                using (StreamWriter sw = new StreamWriter(userInfoPath))</span><br><span class="line">                &#123;</span><br><span class="line">                    sw.WriteLine(email);</span><br><span class="line">                    sw.WriteLine(pw);</span><br><span class="line">                    sw.WriteLine(DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;));</span><br><span class="line">                    sw.Flush();</span><br><span class="line">                    sw.Close();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (Exception)</span><br><span class="line">            &#123;              </span><br><span class="line">            &#125;          </span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><p>其中userInfoPath是</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">private static string userInfoPath = Application.ExecutablePath + &quot;infotest.txt&quot;;</span><br></pre></td></tr></table></figure><p>要实现是否自动登录要满足几个条件，首先是之前成功登录时选择了自动登录，已经将用户信息保存，其次是时间要在七天以内</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">private int autoLoginSuccess()</span><br><span class="line">        &#123;</span><br><span class="line">            // 读取文件 获取用户名和密码 和日期</span><br><span class="line">            string email = &quot;&quot;;</span><br><span class="line">            string pw = &quot;&quot;;</span><br><span class="line">            string time = &quot;&quot;;</span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                // 创建一个 StreamReader 的实例来读取文件  using 语句也能关闭 StreamReader</span><br><span class="line">                using (StreamReader sr = new StreamReader(userInfoPath))</span><br><span class="line">                &#123;</span><br><span class="line">                    email = sr.ReadLine().Trim();</span><br><span class="line">                    </span><br><span class="line">                    pw = sr.ReadLine().Trim();</span><br><span class="line">                    </span><br><span class="line">                    time = sr.ReadLine().Trim();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (Exception e)</span><br><span class="line">            &#123;</span><br><span class="line">                // 文件没有找到 - 或者信息不能全部读取</span><br><span class="line">                return -1;</span><br><span class="line">            &#125;</span><br><span class="line">            // 判断是否过期</span><br><span class="line">            DateTime d = Convert.ToDateTime(time);</span><br><span class="line">            TimeSpan timeSpane = DateTime.Now.Subtract(d);// 获取时间间隔</span><br><span class="line">            if (Math.Abs(timeSpane.Days) &gt;= 7)</span><br><span class="line">            &#123;</span><br><span class="line">                // 过期</span><br><span class="line">                return -1;</span><br><span class="line">            &#125;</span><br><span class="line">            // 判断用户名密码是否正确</span><br><span class="line">            return 1;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><hr><h4 id="3、连接-SQL-Server-Management-Studio中的数据库："><a href="#3、连接-SQL-Server-Management-Studio中的数据库：" class="headerlink" title="3、连接 SQL Server Management Studio中的数据库："></a>3、连接 SQL Server Management Studio中的数据库：</h4><p>在这之前要先确保Visual Studio的服务器资源管理器中已经有了数据连接，之后的步骤就是打开连接，执行sql语句返回需要的信息，然后再关闭连接</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">public SqlConnection getCon()</span><br><span class="line">        &#123;</span><br><span class="line">            string conStr = &quot;Data Source=.;Initial Catalog=数据库名;Integrated Security=True&quot;;</span><br><span class="line">            My_con = new SqlConnection(conStr);</span><br><span class="line">            My_con.Open();</span><br><span class="line">            return My_con;  //返回SqlConnection对象的信息</span><br><span class="line">        &#125;</span><br><span class="line">public SqlDataReader getcom(string SQLstr)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();   //打开与数据库的连接</span><br><span class="line">            SqlCommand My_com = My_con.CreateCommand(); //创建一个SqlCommand对象，用于执行SQL语句</span><br><span class="line">            My_com.CommandText = SQLstr;    //获取指定的SQL语句</span><br><span class="line">            SqlDataReader My_read = My_com.ExecuteReader(); //执行SQL语名句，生成一个SqlDataReader对象</span><br><span class="line">            return My_read;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        //根据sql与句进行查询，并将结果绑定在组件上显示</span><br><span class="line">        public DataSet getDataSet(string SQLstr, string tableName)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();   //打开与数据库的连接</span><br><span class="line">            SqlDataAdapter SQLda = new SqlDataAdapter(SQLstr, My_con);  //创建一个SqlDataAdapter对象，并获取指定数据表的信息</span><br><span class="line">            DataSet My_DataSet = new DataSet(); //创建DataSet对象</span><br><span class="line">            SQLda.Fill(My_DataSet, tableName);  //通过SqlDataAdapter对象的Fill()方法，将数据表信息添加到DataSet对象中</span><br><span class="line">            con_close();    //关闭数据库的连接</span><br><span class="line">            return My_DataSet;  //返回DataSet对象的信息</span><br><span class="line">            //WritePrivateProfileString(string section, string key, string val, string filePath);</span><br><span class="line">        &#125;</span><br><span class="line">        public DataTable getDataCombox(string SQLstr)</span><br><span class="line">        &#123;</span><br><span class="line">            getCon();</span><br><span class="line">            SqlDataAdapter SQLda = new SqlDataAdapter(SQLstr, My_con);</span><br><span class="line">            DataTable dt_re = new DataTable();</span><br><span class="line">            SQLda.Fill(dt_re);</span><br><span class="line">            return dt_re;</span><br><span class="line">        &#125;</span><br><span class="line">//关闭数据库连接</span><br><span class="line">        public void con_close()</span><br><span class="line">        &#123;</span><br><span class="line">            if (My_con.State == ConnectionState.Open)   //判断是否打开与数据库的连接</span><br><span class="line">            &#123;</span><br><span class="line">                My_con.Close();   //关闭数据库的连接</span><br><span class="line">                My_con.Dispose();   //释放My_con变量的所有空间</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><p>一开始一直搞不清DataSet和DataTable是什么，看了这篇博客<a href="https://www.cnblogs.com/vaevvaev/p/6815384.html" target="_blank" rel="noopener">https://www.cnblogs.com/vaevvaev/p/6815384.html</a>才理清楚</p><hr><h4 id="4、常用控件的属性和方法"><a href="#4、常用控件的属性和方法" class="headerlink" title="4、常用控件的属性和方法"></a>4、常用控件的属性和方法</h4><p>（1）comboBox下拉列表</p><p>设置下拉列表中的选项时如果不需要绑定某个数据那自接在控件的Items属性里设置就好了，集合里的一行就是下拉菜单中的一项。但是很多情况下comboBox是需要绑定从数据库中查出的一些数据的，这时需要指定控件的数据源和显示的数据项（以下的getDataCombox()即第3点连接数据库中的方法）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">string sql = &quot;查询的sql语句&quot;;</span><br><span class="line">            DataTable re = MyDataClass.getDataCombox(sql);  </span><br><span class="line">            this.comboBox.DataSource = re;</span><br><span class="line">            this.comboBox.DisplayMember = (&quot;显示的数据项名称&quot;);</span><br><span class="line">            this.comboBox.ValueMember = (&quot;对应所选的真正的值&quot;);</span><br></pre></td></tr></table></figure><p>*comboBox.ValueMember这个属性如果在显示的值和真正对应的值相同时则可以不用另外设置，如果设置了，则获取时要用comboBox.SelectedValue.ToString()</p><p>（2）groupBox控件组</p><p>当有多个单选框，复选框等处于同一框体，且对它们的操作基本相同时可将它们放入同一控件组方便管理和批量操作，在同一个控件组中的控件像是在一个控件类型的数组中，可遍历控件组中的每个控件，控件组也可嵌套使用</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">foreach (Control F in groupBox.Controls)</span><br></pre></td></tr></table></figure><p>*注意F为Control类型，若在设置其属下或调用其方法时一定要先将类型转换回来，例如 ((CheckBox)F).Checked = true;</p><p>（3）chart统计图</p><p>chart控件初始状态下为柱状图，通过设置Series中的chartType可修改为折线图等其他统计图的格式，然后是绑定数据，并且明确指出X，Y轴分别绑定到具体的某个数据项</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">string sql = &quot;查询语句&quot;;</span><br><span class="line">            dt = MyDataClass.getDataCombox(sql);</span><br><span class="line">            chart1.DataSource = dt;</span><br><span class="line">            chart1.Series[0].XValueMember = dt.Columns[0].ColumnName; //绑定X轴的值</span><br><span class="line">            chart1.Series[0].YValueMembers = dt.Columns[1].ColumnName; //绑定Y轴的值</span><br><span class="line">            chart1.DataBind();</span><br></pre></td></tr></table></figure><p>之前找到一篇很好的博客总结了chart的数据绑定，可惜没有收藏一下现在找不到了<img src="/2019/11/15/工匠杯总结/11/15/工匠杯总结/2.jpg" title="悔恨"></p><p>（4）dataGridView表格</p><p>其实dataGridView最主要就是用在显示表格的查询结果，重点在于数据表的绑定</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MyDS_Grid = MyDataClass.getDataSet(&quot;&quot;);</span><br><span class="line">dataGridView.DataSource = MyDS_Grid.Tables[0];</span><br></pre></td></tr></table></figure><p>其实还有很多用法和细节的东西，但时间毕竟过了这么久了很多都忘了，谁让学习本来就是个记了忘，忘了记的过程呢，以后想起了再来补充吧</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;个人比赛总结&quot;&gt;&lt;a href=&quot;#个人比赛总结&quot; class=&quot;headerlink&quot; title=&quot;个人比赛总结&quot;&gt;&lt;/a&gt;个人比赛总结&lt;/h3&gt;&lt;p&gt;其实距离比赛结束已经很久了，想写个总结但一直有事拖着，个人觉得写个总结还是很有必要的。这是到大学后第一次参加
+      
+    
+    </summary>
+    
+      <category term="总结" scheme="http://sunnnman.github.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="C#" scheme="http://sunnnman.github.io/tags/C/"/>
+    
+      <category term="android" scheme="http://sunnnman.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>django笔记总结1</title>
+    <link href="http://sunnnman.github.io/2019/08/27/django%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%931/"/>
+    <id>http://sunnnman.github.io/2019/08/27/django笔记总结1/</id>
+    <published>2019-08-27T11:26:09.000Z</published>
+    <updated>2019-08-31T07:24:39.128Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="笔记整合"><a href="#笔记整合" class="headerlink" title="笔记整合"></a>笔记整合</h3><h4 id="1、项目结构分析"><a href="#1、项目结构分析" class="headerlink" title="1、项目结构分析"></a>1、项目结构分析</h4><p>​    manage.py: 基于此达成文件与项目的交互等，在终端输入 python manage.py [子命令] 可执行具体操作；</p><p>​    setting.py : 项目相关的配置文件，例如存放模板的文件设置；</p><p>​    urls.py : 用于设置url与视图函数之间的映射；</p><p>​    views.py:用于编写视图函数；</p><hr><h4 id="2、视图函数注意点"><a href="#2、视图函数注意点" class="headerlink" title="2、视图函数注意点"></a>2、视图函数注意点</h4><p>​    所有视图函数必须有一个request参数，且放在第一位；</p><p>​    视图函数返回值必须是HttpResponseBase或其子函数的对象；</p><p>​    视图函数中如需使用某些函数需自己导入；</p><hr><h4 id="3、url中传递参数"><a href="#3、url中传递参数" class="headerlink" title="3、url中传递参数"></a>3、url中传递参数</h4><p>​    第一种是固定参数，在path 函数中用‘&lt;&gt;’尖括号定义： path(‘url/&lt;参数名&gt;’，视图函数)；</p><p>​    *注意：path中所用参数名需与对应视图函数中参数名一致；</p><p>​    第二种是获取字符串，在path函数和视图函数中都不需要给出参数，在视图函数中可自接用request.GET.get(‘参数名’)获取；</p><hr><h4 id="4、关于app"><a href="#4、关于app" class="headerlink" title="4、关于app"></a>4、关于app</h4><p>​    定义：Django对于项目划分的最小单位，一个项目由多个app整合完成，各app相对独立;</p><p>​    各app可在其自己的urls.py下定义映射关系，但最终需整合到项目文件夹下的urls中：path(‘test/‘ , include (‘test.urls’) );</p><p>​    * path包和include包均在django.urls下;</p><hr><h4 id="5、url命名"><a href="#5、url命名" class="headerlink" title="5、url命名"></a>5、url命名</h4><p>​    因为url可能变修改所以引用时最好不要这样 ‘/test/’ 写死，而可以为url命名，引用时通过 reverse（‘urlname’）反转获取真实url，</p><p>​    例如在重定向时可使用：redirect（reverse（‘urlname’））,而对url命名只需在path函数中多加一个参数 name = ‘urlname’ 即可；</p><ul><li><p>reverse和redirect 均在django.shortcuts包下</p><p>同时因为不同app中可能存在相同的urlname导致反转错误，所以引入应用命名空间app_name,设置app_name只需在app下的urls.py中添加一句：app_name = ‘app_name’即可，而在引用urlname时则改为 ：‘app_name : urlname’;</p><hr></li></ul><h4 id="6、dtl模板"><a href="#6、dtl模板" class="headerlink" title="6、dtl模板"></a>6、dtl模板</h4><p>​    dtl模板是一种带有特殊语法的HTML文件，这个HTML文件可被Django编译，可以传参实现数据动态化，在编译完成后生成一个HTML文件，然后再发送给客户端；</p><p>​    项目文件下settings.py文件中通过 ：‘DIRS’ :[ os.path.join (BASE_DIR,’templates’) ]  指定模板存储文件夹为项目文件下的templates</p><p>​    同时也可为每个app单独设置模板文件夹templates,放在app文件夹下，并且需将app名称添加到setting中；</p><p>​    * 模板中可使用变量，但引用时通过{ { } } 双大括号 ;</p><hr><h4 id="7、render函数"><a href="#7、render函数" class="headerlink" title="7、render函数"></a>7、render函数</h4><p>​    render函数能够渲染模板，同时也能传递参数给模板: render(request , ‘模板’ ， context = context ) ，其中request参数不能少。    </p><p>​    context为字典类型存放需要传递的参数，其中value值可以是列表、元组、对象、字典等，但是在调用时不能使用python原语，例如访</p><p>问列表中的第一个元素不能使用 keyname[0]的用法，‘[]’将无法解析，而应使用‘.‘调用，例如keyname.0 表示列表中的第一个元素，其他类</p><p>型用法相同。</p><hr><h4 id="8、dtl常用模板标"><a href="#8、dtl常用模板标" class="headerlink" title="8、dtl常用模板标"></a>8、dtl常用模板标</h4><p>​                </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if  %&#125;if标签的判断与使用与python中相同</span><br><span class="line">&#123;% elif %&#125;</span><br><span class="line">&#123;% else %&#125;    </span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">for</span> test <span class="keyword">in</span> tests %&#125;</span><br><span class="line">&#123;% empty %&#125;      当tests内容为空时走empty中的内容</span><br><span class="line">&#123;% endfor %&#125;</span><br></pre></td></tr></table></figure><p>​    for…in中几个常用的变量： forloop.counter (记录循环的次数，从一开始，若想从0开始则用forloop.counter0)</p><p>​                            forloop.frist ( 是否是第一次循环)</p><p>​                            forloop.last (是否是最后一次循环)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% url &apos;urlname&apos; %&#125;  </span><br><span class="line"></span><br><span class="line">url的作用于python中的reverse相同，都是通过urlname返回真实的url，一般用于超链接跳转时，并且可以带参；</span><br><span class="line"></span><br><span class="line">固定参数：&#123;% url &apos;urlname&apos; canshu= &apos;c&apos; %&#125;</span><br><span class="line">获取字符串： &#123;% url &apos;urlname&apos; %&#125;?canshu=&apos;c&apos;</span><br></pre></td></tr></table></figure><hr><img src="/2019/08/27/django笔记总结1/08/27/django笔记总结1/1.PNG"><img src="/2019/08/27/django笔记总结1/08/27/django笔记总结1/2.PNG">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;笔记整合&quot;&gt;&lt;a href=&quot;#笔记整合&quot; class=&quot;headerlink&quot; title=&quot;笔记整合&quot;&gt;&lt;/a&gt;笔记整合&lt;/h3&gt;&lt;h4 id=&quot;1、项目结构分析&quot;&gt;&lt;a href=&quot;#1、项目结构分析&quot; class=&quot;headerlink&quot; title=&quot;1
+      
+    
+    </summary>
+    
+      <category term="坚狗学习笔记" scheme="http://sunnnman.github.io/categories/%E5%9D%9A%E7%8B%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="django" scheme="http://sunnnman.github.io/tags/django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;快速搭建虚拟环境&#39;</title>
+    <link href="http://sunnnman.github.io/2019/08/27/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
+    <id>http://sunnnman.github.io/2019/08/27/快速搭建虚拟环境/</id>
+    <published>2019-08-27T09:10:53.000Z</published>
+    <updated>2019-08-27T09:52:58.048Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在我们安装python后会有一个系统级别的Python环境，而不同的项目需要资源和django版本可能会不同，创建虚拟环境后就可以分别在不同的环境下安装不同版本的django，建立不同的项目。之前自学看《Python编程-从入门到实践》这本书时里面有介绍虚拟环境的搭建，但因为操作系统不同所以很多操作还要自行转换很麻烦，也比较容易出现问题。在看教学视频时就有对这部分的介绍，很快也很方便，所以总结了一下。</p><a id="more"></a><h3 id="安装virtualenvwrapper"><a href="#安装virtualenvwrapper" class="headerlink" title="安装virtualenvwrapper"></a>安装virtualenvwrapper</h3><p>virtualenvwrapper可以帮助管理和创建虚拟环境，并且可以直接通过pip安装，命令如下：</p><p>其他系统：pip install virtualenvwrapper</p><p>windows系统： pip install virtualenvwrapper-win</p><p>其实virtualenvwrapper可以看做是virtualenv的一个拓展，所以在安装时会自动帮你安装virtualenv</p><img src="/2019/08/27/快速搭建虚拟环境/08/27/快速搭建虚拟环境/1.jpg" title="hhh"><h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>1、创建虚拟环境：  mkvirtualenv  env(环境名)</p><p>2、切换到某个虚拟环境：  workon env(环境名)</p><p>3、删除虚拟环境： rm virtualenv env(环境名)</p><p>4、查看当前已有虚拟环境：lsvirtualenv</p><p>注意：虚拟环境创建后默认放置在当前用户的文件夹下，在Enve中，而因为日后需要在其中建立项目和安装各种包所以会比较占空间，建议可以自己找个比较空的盘放置。而修改的话只要在环境变量中添加一个WORKON_HOME变量，并将你想要存放的路径设为值即可。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;在我们安装python后会有一个系统级别的Python环境，而不同的项目需要资源和django版本可能会不同，创建虚拟环境后就可以分别在不同的环境下安装不同版本的django，建立不同的项目。之前自学看《Python编程-从入门到实践》这本书时里面有介绍虚拟环境的搭建，但因为操作系统不同所以很多操作还要自行转换很麻烦，也比较容易出现问题。在看教学视频时就有对这部分的介绍，很快也很方便，所以总结了一下。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="坚狗学习笔记" scheme="http://sunnnman.github.io/categories/%E5%9D%9A%E7%8B%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="django" scheme="http://sunnnman.github.io/tags/django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>next主题中文乱码问题</title>
+    <link href="http://sunnnman.github.io/2019/08/18/next%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://sunnnman.github.io/2019/08/18/next主题中文乱码问题/</id>
+    <published>2019-08-18T07:46:36.000Z</published>
+    <updated>2019-08-18T09:01:51.253Z</updated>
+    
+    <content type="html"><![CDATA[<p>搭建了博客，打算开始优化主题时出现了中文乱码的问题，按照网上的教程该改的都改了但乱码问题一直解决不了，也踩了坑。</p><img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/绝望.jpg" title="嘤嘤嘤"><p>但是，嘿嘿，如你所见我最终还是解决了</p><p>以下是我个人的经验：</p><p>打开根目录下的_config.yml，找到language这里修改成zh_CH（简体中文）注意”:”冒号后要有空格</p><img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/config.PNG" title="config"><p>这里建议查看下themes/next/languages文件夹，或许，也许,你的简体中文不叫zh_CH ( 好像确实有人存在这个问题)，那你就把language改成你的简体中文的名字，或者把它重命名为zh_CH</p><p>到这你可以hexo s试试乱码问题有没有解决</p><p>我当时就是改到这，发现乱码还是乱码，于是我开始怀疑是不是中文要引起来或者有什么其他的格式，但是在我尝试了各种奇怪的格式后发现：什么都不需要（但是注意冒号后面一定要有个空格）</p><img src="/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/绝望2.jpg" title="嘤嘤嘤"><p>然后我又查了好久，终于…</p><p>—————————成功的分割线——————————</p><p>最后一个可能导致你中文乱码的原因就是根目录下config.yml的编码，要修改为UTF-8编码格式（这个在编辑器里面打开就可以修改）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;搭建了博客，打算开始优化主题时出现了中文乱码的问题，按照网上的教程该改的都改了但乱码问题一直解决不了，也踩了坑。&lt;/p&gt;
+&lt;img src=&quot;/2019/08/18/next主题中文乱码问题/08/18/next主题中文乱码问题/绝望.jpg&quot; title=&quot;嘤嘤嘤&quot;&gt;
+
+
+      
+    
+    </summary>
+    
+      <category term="踩坑史" scheme="http://sunnnman.github.io/categories/%E8%B8%A9%E5%9D%91%E5%8F%B2/"/>
+    
+    
+      <category term="hexo" scheme="http://sunnnman.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下快速下载和安装Git</title>
+    <link href="http://sunnnman.github.io/2019/08/17/Windows%E4%B8%8B%E5%BF%AB%E9%80%9F%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85Git/"/>
+    <id>http://sunnnman.github.io/2019/08/17/Windows下快速下载和安装Git/</id>
+    <published>2019-08-17T00:39:43.000Z</published>
+    <updated>2019-08-17T00:42:48.399Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。目前GIT已经可以在windows下使用。以下将介绍如何快速的在Windows下下载并安装。</p><a id="more"></a><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>下载的话可以自接在官网中点击进行下载 &lt;<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a>&gt;</p><img src="/2019/08/17/Windows下快速下载和安装Git/08/17/Windows下快速下载和安装Git/normal.png" title="普通下载"><p>但是因为需要翻墙所以下载特别慢，如果网速不好的（本人就是这样）根本就下不下来。</p><p>这里 <a href="https://github.com/waylau/git-for-win" target="_blank" rel="noopener">https://github.com/waylau/git-for-win</a>有国内镜像下载的地址，选择自己需要的版本后进行下载就可以了。</p><img src="/2019/08/17/Windows下快速下载和安装Git/08/17/Windows下快速下载和安装Git/mirror.png" title="镜像下载"><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装的话这个教程里讲的比较详细大家可以参考一下：</p><p><a href="https://blog.csdn.net/s740556472/article/details/77623453" target="_blank" rel="noopener">https://blog.csdn.net/s740556472/article/details/77623453</a></p><p>里面有具体的介绍安装时每一步设置的内容</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。目前GIT已经可以在windows下使用。以下将介绍如何快速的在Windows下下载并安装。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="踩坑史" scheme="http://sunnnman.github.io/categories/%E8%B8%A9%E5%9D%91%E5%8F%B2/"/>
+    
+    
+      <category term="hexo" scheme="http://sunnnman.github.io/tags/hexo/"/>
+    
+      <category term="git" scheme="http://sunnnman.github.io/tags/git/"/>
+    
+  </entry>
+  
+</feed>
